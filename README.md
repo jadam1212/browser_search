@@ -11,7 +11,7 @@ LazyVim install example:
 2. Copy the below example into a file `browser_search.lua` in the above directory:
 `
 return {
-  dir = "jadam1212/browser_search",
+  "jadam1212/browser_search",
   lazy = false,
   config = function()
     require("browser_search")
